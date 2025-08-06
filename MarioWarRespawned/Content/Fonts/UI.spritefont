@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+    
+    <!-- Font name: Use system fonts or fonts in your project -->
+    <FontName>Arial</FontName>
+    
+    <!-- Size in points -->
+    <Size>14</Size>
+    
+    <!-- Spacing between characters -->
+    <Spacing>0</Spacing>
+    
+    <!-- Apply kerning -->
+    <UseKerning>true</UseKerning>
+    
+    <!-- Font style -->
+    <Style>Regular</Style>
+    
+    <!-- Characters to include (default covers most English) -->
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>&#32;</Start>  <!-- Space -->
+        <End>&#126;</End>     <!-- ~ -->
+      </CharacterRegion>
+    </CharacterRegions>
+    
+  </Asset>
+</XnaContent>
